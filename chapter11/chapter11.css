@@ -1,0 +1,43 @@
+h1 .ex1 {
+    color: darkcyan;
+}
+h2 .ex1{
+    color: #ee3e80;
+}
+
+p .ex1 {
+    color: rgb(100,100,90);
+}
+
+body .ex2 {
+    background-color: rgb(200,200,200);
+}
+h1 .ex2 {
+    background-color: darkcyan;
+}
+
+h2 .ex2 {
+    background-color: #ee3e80;
+}
+p .ex2 {
+    background-color: white;
+}
+
+p.one {
+    background-color: rgb(100,100,90);
+    opacity: 0.5;
+}
+p.two {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+}
+
+body .ex3 {
+    background-color: #C8C8C8;
+    background-color: hsl(0,0%,78%);
+}
+
+p .ex3 {
+    background-color: #ffffff;
+    background-color: hsla(0,100%,100%,0.5);
+}
