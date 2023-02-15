@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Chapter 9</h1>
+<body>
+    <head>
+        <title>Multiple Video Sources</title>
+    </head>
+    <body>
+        <video poster="images/puppy.jpg" width="400" height="320" preload controls loop> 
+            <source src="video/puppy.mp4" type='video/mp4;codecs="avcl.42E01E, mp4a.40.2"' />
+            <source src="video/puppy.webm" type='video.webm;codecs="vp8, vorbis"'/>
+            <p>A video of a puppy playing in the snow</p>
+        </video>
+    </body>
+</body>
+<body>
+    <head>
+        <title>Multiple Audio Sources</title>
+    </head>
+    <body>
+        <audio controls autoplay>
+            <source src="audio/test-audio.ogg"/>
+            <source src="audio/test-audio.mp3"/>
+            <p>This browswer does not support our audio format.</p>
+        </audio>
+    </body>
+</body>
+</html>
